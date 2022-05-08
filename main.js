@@ -5,6 +5,43 @@ onScroll()
 function onScroll() {
   showNavOnScroll()
   showBackToTopButtonOnScroll()
+  activateMenuAtCurrentSection(home)
+  activateMenuAtCurrentSection(services)
+  activateMenuAtCurrentSection(about)
+  activateMenuAtCurrentSection(contact)
+}
+
+function activateMenuAtCurrentSection(section) {
+  const targetLine = scrollY + innerHeight / 2
+
+  // VERIFICAR SE A SEÇÃO PASSOU DA LINHA
+  // quais dados vou precisar ?
+
+  const sectionTop = section.offsetTop
+  const sectionHeight = section.offsetHeight
+
+  const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
+
+  //VERIFICAR SE A BASE ESTÁ ABAIXO DA LINHA ALVO
+  //quais dadados vou precisar ?
+
+  const sectionEndsAt = sectionTop + sectionHeight
+
+  const sectionEndPassedTargetLine = sectionEndsAt <= targetLine
+
+  //LIMITES DA SEÇÃO
+
+  const sectionBoundaries =
+    sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetLine
+
+  const sectionId = section.getAttribute('id')
+  const menuElement = document.querySelector(`.menu a[href*=${sectionId}]`)
+
+  menuElement.classList.remove('active')
+
+  if (sectionBoundaries) {
+    menuElement.classList.add('active')
+  }
 }
 
 function showNavOnScroll() {
