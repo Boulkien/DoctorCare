@@ -7,6 +7,7 @@ function onScroll() {
   showBackToTopButtonOnScroll()
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
+  activateMenuAtCurrentSection(testimonials)
   activateMenuAtCurrentSection(about)
   activateMenuAtCurrentSection(contact)
 }
@@ -68,6 +69,19 @@ function closeMenu() {
   document.body.classList.remove('menuExpanded')
 }
 
+// SWIPER REVEAL
+const swiper = new Swiper('.swiper', {
+  slidesPerview: 1,
+  autoplay: {
+    delay: 5000
+  },
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  mousewheel: true,
+  keyboard: true
+})
+
 ScrollReveal({
   origin: 'top',
   distance: '30px',
@@ -78,6 +92,9 @@ ScrollReveal({
            #services, 
            #services header, 
            #services .card,
+           #testimonials, 
+           #testimonials header,
+           #testimonials .testimonial,
            #about,
            #about header,
            #about .content,

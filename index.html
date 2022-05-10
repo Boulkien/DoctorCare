@@ -11,8 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Roboto:wght@100;400;700&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Roboto:wght@100;400;700&display=swap"
+    rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
   </head>
 
@@ -75,8 +79,15 @@
             <li>
               <a onclick="closeMenu()" href="#home">Início</a>
             </li>
-            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
-            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+            <li>
+              <a onclick="closeMenu()" href="#services">Serviços</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="#testimonials">Depoimentos</a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="#about">Sobre</a>
+            </li>
           </ul>
           <a class="button" onclick="closeMenu()" href="#contact"
             >Agende sua consulta</a
@@ -445,6 +456,68 @@
       </div>
     </section>
 
+    <section id="testimonials">
+      <div class="wrapper">
+          <header>
+            <h4>Depoimentos</h4>
+            <h2>O que os clientes dizem sobre o DoctorCare</h2>
+          </header>
+        </div>
+
+        <div class="testimonials swiper">
+        
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur dapibus consectetur consectetur. Nulla sagittis
+                    tristique dolor, quis convallis dolor venenatis id.
+                  </p>
+                  <cite>
+                    <img src="./assets/profile.png" alt="Foto de perfil" />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur dapibus consectetur consectetur. Nulla sagittis
+                    tristique dolor, quis convallis dolor venenatis id.
+                  </p>
+                  <cite>
+                    <img src="./assets/profile.png" alt="Foto de perfil" />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur dapibus consectetur consectetur. Nulla sagittis
+                    tristique dolor, quis convallis dolor venenatis id.
+                  </p>
+                  <cite>
+                    <img src="./assets/profile.png" alt="Foto de perfil" />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+          </div>
+
+          <div class="swiper-pagination"></div>       
+        </div>
+
+        
+      </div>
+    </section>
+
     <section id="about">
       <div class="wrapper">
         <div class="colA">
@@ -742,6 +815,8 @@
 
     <!--Scroll Reveal Lib-->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
     <script src="./main.js"></script>
   </body>
 </html>
