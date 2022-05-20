@@ -16,9 +16,9 @@ This Landing Page was created to introduce the initials concepts of Front-End, w
 ✔️ HTML - Structuring and specifying the sections ;\
 ✔️ CSS - styling the sections and making the page more accessible ;\
 ✔️ JS - creating animations for page scrolling and in the testimonials section ;\
-✔️ DESKTOP - and finally, making the page more acessible via desktop ;\
+✔️ DESKTOP - and finally, making the page more acessible via desktop ;
 
-# ABOUT THE ANIMATIONS
+# 🪄 ABOUT THE ANIMATIONS
 
 I use the [ScrollReveal](https://scrollrevealjs.org/) lib to create the reveal animations when you scroll the page.
 
