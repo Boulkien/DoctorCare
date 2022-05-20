@@ -8,13 +8,15 @@ This Landing Page was created to introduce the initials concepts of Front-End, w
 
 <img src="./assets/gifDoctorCare.gif" alt="Mostrando a página da DoctorCare.">
 
+<img src="./assets/gifDoctorCare2.gif" alt="Mostrando a página da DoctorCare.">
+
 # 🎯 PHASES
 
-✔️ Mobile First
-✔️ HTML - Structuring and specifying the sections 
-✔️ CSS - styling the sections and making the page more accessible
-✔️ JS - creating animations for page scrolling and in the testimonials section
-✔️ DESKTOP - and finally, making the page more acessible via desktop
+✔️ Mobile First ;\
+✔️ HTML - Structuring and specifying the sections ;\
+✔️ CSS - styling the sections and making the page more accessible ;\
+✔️ JS - creating animations for page scrolling and in the testimonials section ;\
+✔️ DESKTOP - and finally, making the page more acessible via desktop ;\
 
 # ABOUT THE ANIMATIONS
 
