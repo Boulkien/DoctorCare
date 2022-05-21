@@ -30,7 +30,7 @@ To make the carousel in the testimonials section, I use the [Swiper](https://swi
 
 # 🚀 ABOUT THE PROJECT 
 
-This project was create with the NLW Return, project create by Rocketseat to introduce people to dev career.
+This project was create with the NLW Return, project created by Rocketseat to introduce people to dev career.
 
 
 
