@@ -1,8 +1,8 @@
-# MADE WITH ROCKETSEAT 🚀🚀
-
-This code was made with the Rocketseat on the Next Level Weekend Return (or just NLW Return).
 
 # 💚 DOCTORCARE
+
+This is my first REAL commit. This project was created using my early skills with HTML, CSS and JavaScript.
+I create this landing page just to learn and see how works this threes tools together and challenge me to create something nice :)
 
 This Landing Page was created to introduce the initials concepts of Front-End, when I use HTML, CSS and JS to create the page. 
 
